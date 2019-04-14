@@ -31,10 +31,19 @@ export default class AddTodo extends React.Component {
       <div>
         {this.state.error && <p className="add-todo-error">{this.state.error}</p>}
         <form className="add-todo" onSubmit={this.handleAddTodo}>
-          Todo: <input className="add-todo__input" type="text" name="todoName" />
-          Description: <input className="add-todo__input" type="text" name="todoDescription" />
-          <button className="button">Add Todo</button>
+        <div>         
+          <div className="add-todo__item">
+            <h4>Todo: </h4>
+            <input className="add-todo__input" type="text" name="todoName" />
+          </div>
+          <div className="add-todo__item">
+            <h4>Description: </h4>
+            <input className="add-todo__input" type="text" name="todoDescription" />            
+          </div>
+          </div>      
+          <button className="button">Add Todo</button>    
         </form>
+        
       </div>
     );
   }

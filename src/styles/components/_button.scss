@@ -19,6 +19,9 @@
   .big-button {
     margin-bottom: $xl-size;
   }
+  .button {
+    margin-top : $s-size
+  }
 }
 
 // Button
@@ -29,6 +32,7 @@
   color: white;
   font-weight: 500;
   padding: $s-size;
+  margin-bottom: $m-size;
 }
 
 .button--link {

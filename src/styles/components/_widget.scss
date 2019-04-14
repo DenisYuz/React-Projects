@@ -2,7 +2,7 @@
 .widget {
   background: $light-blue;
   margin-bottom: $xl-size;
-  max-height: 50rem;
+  max-height: 80rem;
 }
 
 .widget__message {
@@ -19,7 +19,7 @@
   color: $off-white;
   display: flex;
   justify-content: space-between;
-  padding: $m-size;
+  padding: $s-size;
 }
 
 .widget-header__title {

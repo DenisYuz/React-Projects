@@ -14,6 +14,12 @@
   color: $off-white;
 }
 
+.add-todo__item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+  color: $off-white;
+}
 .add-todo__input {
   background: $dark-blue;
   border: none;
@@ -26,9 +32,9 @@
 
 @media (min-width: $desktop-breakpoint) {
   .add-todo {
-    flex-direction: row;
+    flex-direction: column;
   }
   .add-todo__input {
-    margin: 0 $s-size 0 0;
+    margin: 0 $s-size 0 0;    
   }
 }

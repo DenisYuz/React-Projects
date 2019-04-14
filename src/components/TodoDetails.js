@@ -4,7 +4,7 @@ const TodoDetails = (props) => {
     return (
         <div>
             <form>
-                <p type="text" onClick={props.handleDisplayTodoDetails}>Todo Details </p>
+                <p type="text" className="header__subtitle" onClick={props.handleDisplayTodoDetails}>Todo Details </p>
                 {props.selectedTodo && <p className="todo__label">Todo: {props.selectedTodo.todoName}</p>}
                 {props.selectedTodo && <p className="todo__label">Description:  {props.selectedTodo.todoDescription}</p>}
             </form>
